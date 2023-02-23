@@ -166,7 +166,7 @@ select:focus {
         grid-column-end: 3;
         text-align: center;
         background-color: #164249;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 
     /* reduce margins around form  */
