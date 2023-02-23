@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="./assets/gritchecker-logo.png">
+    </header>
+
+    <!-- Main Content Section -->
+
+    <main>
+        <div class="grid">
+            <div class="input-box">
+
+                <form>
+                    <div id="form-title">
+                        check conditions for:
+                    </div>
+                    <div class="dropdown">
+                        <select name="crag-name" id="crag-name">
+                            <option value="curbar">Curbar Edge</option>
+                            <option value="burbage-s">Burbage South</option>
+                            <option value="burbage-n">Burbage North</option>
+                            <option value="stanage-popular">Stanage Popular</option>
+                            <option value="stanage-n">Stanage North</option>
+                            <option value="hen-cloud">The Roaches: Hen Cloud</option>
+                            <option value="upper-tier">The Roaches: Upper Tier</option>
+                        </select>
+                    </div>
+                    
+                    <!--<div class="text-entry">
+                        <input type="text" placeholder="API Key" name="api-key" id="api-key">
+                    </div>-->
+                
+                    <div class="output-box">
+                        <p id="text-insert">
+
+                        </p>
+                    </div>
+
+                    <div class="check-button">
+                        <input id="check-button" type="button" value="Check" onclick="getWeather()">
+                    </div>
+                </form>               
+
+            </div>
+    
+        </div>
+        
+    </main>
+
+
+</body>
+</html>
